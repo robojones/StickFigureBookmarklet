@@ -6,10 +6,6 @@
 (function (window, document) {
 	'use strict';
 
-	if(BM_OUTDATED) {
-		alert('Your bookmarklet ist outdated, please update it!');
-	}
-
 	var GRAVITY = -1000;
 
 	var PLAYER_SPEED = 300;
