@@ -69,7 +69,7 @@
 
 		var storageIFrame = document.createElement('iframe');
 		storageIFrame.style.display = 'none';
-		storageIFrame.src = 'https://maxkl.de/bm/storage.html?name=stickfigure-game';
+		storageIFrame.src = 'https://jonathan-scholz.de/bm/storage.html?name=stickfigure-game';
 		document.body.appendChild(storageIFrame);
 
 		function sendStorageActions(actions) {

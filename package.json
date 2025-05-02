@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "base64-stream": "^0.1.3",
-    "multistream": "^2.1.0"
-  }
-}
