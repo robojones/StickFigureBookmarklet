@@ -162,7 +162,7 @@
 			try {
 				cb(null, JSON.parse(atob(BUNDLED_RESOURCES[name])));
 			} catch(e) {
-				cb(e);
+				cb(new Error(`Failed to decode Base64 string: ${name}: ${e.message}`);
 			}
 		},
 		'png': function (name, cb) {
